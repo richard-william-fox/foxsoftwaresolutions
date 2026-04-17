@@ -1,0 +1,15 @@
+.contactContent p {
+    margin: auto;
+    padding: 10px;
+    border: #d67c1d inset 4px;
+}
+
+ul {
+    border-left: #d67c1d inset 4px;
+    border-right: #d67c1d inset 4px;
+    width: 100%;
+}
+
+li {
+    color: #ddd6ceff;
+}

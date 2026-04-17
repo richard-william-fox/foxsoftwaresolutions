@@ -1,0 +1,32 @@
+.mainContent {
+    width: 70%;
+    margin: auto;
+}
+
+.mainContent p {
+    margin: auto;
+    padding: 10px;
+    border: #d67c1d inset 4px;
+    color: #ddd6ceff;
+}
+
+.mainContent p {
+    margin: auto;
+    padding: 10px;
+    border: #d67c1d inset 4px;
+    color: #ddd6ceff;
+}
+
+th,
+tr,
+td {
+    color: #ddd6ceff;
+    text-align: left;
+    border: #bbb7b3ff inset 2px;
+}
+
+table {
+    border-left: #d67c1d inset 4px;
+    border-right: #d67c1d inset 4px;
+    width: 100%;
+}

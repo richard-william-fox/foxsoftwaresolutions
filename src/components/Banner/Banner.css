@@ -1,0 +1,27 @@
+#headerContent {
+    display: inline-flex;
+    width: 100%;
+    height: 101px;
+    background-color: #a33100ff;
+}
+
+#headerImg {
+    width: 11%;
+    height: 10%;
+}
+
+#headerImg img {
+    width: 100%;
+    height: 101px;
+}
+
+#headerTxt {
+    display: block;
+    padding-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#headerTxt p {
+    color: #d67c1d;
+}

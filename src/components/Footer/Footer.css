@@ -1,0 +1,13 @@
+#footer {
+    background-color: #a33100ff;
+}
+
+#socialLinks a img {
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+}
+
+#footer p {
+    color: #ddd6ceff;
+}

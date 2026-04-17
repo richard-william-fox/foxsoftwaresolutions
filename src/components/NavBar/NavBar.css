@@ -1,0 +1,18 @@
+#navBanner {
+    width: 11%;
+    background-color: #2e2e2eff;
+    padding-top: 20px;
+    padding-right: 14px;
+    border-right: #d67c1d inset 4px;
+}
+
+#navLinks {
+    height: 50px;
+    padding-left: 10px;
+}
+
+#navLinks a {
+    display: block;
+    padding-bottom: 30px;
+    color: #ddd6ceff;
+}
