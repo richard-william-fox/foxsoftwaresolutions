@@ -1,7 +1,7 @@
 #headerContent {
     display: inline-flex;
     width: 100%;
-    height: 101px;
+    height: 125px;
     background-color: #a33100ff;
 }
 
@@ -11,8 +11,8 @@
 }
 
 #headerImg img {
-    width: 100%;
-    height: 101px;
+    width: 96%;
+    height: 125px;
 }
 
 #headerTxt {

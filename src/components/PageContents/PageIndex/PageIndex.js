@@ -40,7 +40,7 @@ const PageIndex = () => {
                     </tr>
                     <tr>
                         <td>PHP</td>
-                        <td>Laravel, Element</td>
+                        <td>Laravel, Eloquent</td>
                         <td>SQLite</td>
                         <td>XML</td>
                         <td>Docker</td>
