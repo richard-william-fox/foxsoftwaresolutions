@@ -1,18 +1,15 @@
 #headerContent {
     display: inline-flex;
     width: 100%;
-    height: 125px;
     background-color: #a33100ff;
 }
 
 #headerImg {
     width: 11%;
-    height: 10%;
 }
 
 #headerImg img {
-    width: 96%;
-    height: 125px;
+    width: 98%;
 }
 
 #headerTxt {
