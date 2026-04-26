@@ -9,7 +9,7 @@ import PageProjects from '../PageContents/PageProjects/PageProjects'
 import Footer from '../Footer/Footer'
 
 const PageContainer = ({ pageName }) => {
-    if (pageName == 'home') {
+    if (pageName === 'home') {
         return (
             <section>
                 <Banner />
@@ -20,7 +20,7 @@ const PageContainer = ({ pageName }) => {
                 <Footer />
             </section>
         )
-    } else if (pageName == 'work') {
+    } else if (pageName === 'work') {
         return (
             <section>
                 <Banner />
@@ -31,7 +31,7 @@ const PageContainer = ({ pageName }) => {
                 <Footer />
             </section>
         )
-    } else if (pageName == 'contact') {
+    } else if (pageName === 'contact') {
         return (
             <section>
                 <Banner />
@@ -42,7 +42,7 @@ const PageContainer = ({ pageName }) => {
                 <Footer />
             </section>
         )
-    } else if (pageName == 'projects') {
+    } else if (pageName === 'projects') {
         return (
             <section>
                 <Banner />

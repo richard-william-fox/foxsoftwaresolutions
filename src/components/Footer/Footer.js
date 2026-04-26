@@ -8,10 +8,10 @@ const Footer = () => {
             <div id="footer">
                 <div id="socialLinks">
                     <a href="https://www.linkedin.com/in/richard-fox-a46397a5/">
-                        <img src={liIcon} />
+                        <img src={liIcon} alt="" />
                     </a>
                     <a href="https://github.com/richard-william-fox">
-                        <img src={ghIcon} />
+                        <img src={ghIcon} alt="" />
                     </a>
                 </div>
                 <div id="copyright">

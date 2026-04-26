@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div id="headerContent">
             <div id="headerImg">
-                <img src={logo} />
+                <img src={logo} alt="" />
             </div>
             <div id="headerTxt">
                 <p>Fox Software Solutions</p>
