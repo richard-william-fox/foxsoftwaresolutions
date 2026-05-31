@@ -21,11 +21,9 @@ app.use(cors())
 app.use(express.json())
 
 app.post('/sendEstimateEmail', (req, res) => {
-    const errorInfo = {
-        estimate: req.body
-    }
+    const estimateInfo = req.body
     try {
-        sendOrderEmail()
+        sendOrderEmail(estimateInfo)
     } catch (error) {
         console.error('Error sending email: ' + error)
     }
@@ -34,10 +32,10 @@ app.post('/sendEstimateEmail', (req, res) => {
 
 //React frontend
 // Source - https://stackoverflow.com/a/44684492
-app.use(express.static(path.join(__dirname, '../../client/dist')))
+app.use(express.static(path.join(__dirname, '../../client/build')))
 
 app.get('/*splat', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../client/dist', 'index.html'))
+    res.sendFile(path.join(__dirname, '../../client/build', 'index.html'))
 })
 
 server.listen(port, () => {

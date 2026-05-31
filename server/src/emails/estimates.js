@@ -15,16 +15,11 @@ const sendEstimateEmail = (estimateInfo) => {
         to: 'richard.fox@foxsoftwaresolutions.org',
     }
 
-    if (!error) {
-        mailOptions.subject = 'Estimate request'
-        mailOptions.text = 'New estimate request.\n' +
-            estimateInfo
-
-    } else {
-        mailOptions.subject = 'Estimate error'
-        mailOptions.text = 'There was an error processing an estimate on foxsoftwaresolutions. Follow up may be needed. Please see error details.\n' +
-            'Info: ' + estimateInfo + '\n'
-    }
+    mailOptions.subject = 'Estimate request'
+    mailOptions.text = 'New estimate request.\n' +
+        estimateInfo.name + '\n' +
+        estimateInfo.email + '\n' +
+        estimateInfo.description
 
     smtpTransport.sendMail(mailOptions, (error, info) => {
         if (error) {

@@ -6,9 +6,10 @@ const PageEstimate = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [description, setDescription] = useState('')
+    const [sent, setSent] = useState('Click to request estimate')
 
-    const requestEstimate = () => {
-        axios.post('/endEstimateEmail', {
+    const requestEstimate = async () => {
+        const res = await axios.post('/sendEstimateEmail', {
             headers: {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
@@ -17,6 +18,12 @@ const PageEstimate = () => {
             email: email,
             description: description,
         })
+
+        if (res.status == 200) {
+            setSent('Email sent.')
+        } else {
+            setSent('There was an error, please try again.')
+        }
     }
 
     return (
@@ -53,14 +60,17 @@ const PageEstimate = () => {
                             }}
                         />
                     </p>
-                    <button
-                        type="button"
-                        onClick={() => {
-                            requestEstimate()
-                        }}
-                    >
+                    <p>
+                        <button
+                            type="button"
+                            onClick={() => {
+                                requestEstimate()
+                            }}
+                        >
                         Request Estimate
                     </button>
+                    {sent}
+                    </p>
                 </div>
             </div>
         </div>
