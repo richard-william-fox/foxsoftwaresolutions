@@ -4,14 +4,12 @@
 }
 
 .mainContent p {
-    margin: auto;
     padding: 10px;
     border: #d67c1d inset 4px;
     color: #ddd6ceff;
 }
 
 .mainContent p {
-    margin: auto;
     padding: 10px;
     border: #d67c1d inset 4px;
     color: #ddd6ceff;
@@ -29,4 +27,26 @@ table {
     border-left: #d67c1d inset 4px;
     border-right: #d67c1d inset 4px;
     width: 100%;
+}
+
+#products {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.productImage {
+    width: 50%;
+    height: 50%;
+}
+
+.smallP {
+    border: none;
+    font-size: 16px;
+    font-weight: unset;
+    margin-bottom: 5px;
 }

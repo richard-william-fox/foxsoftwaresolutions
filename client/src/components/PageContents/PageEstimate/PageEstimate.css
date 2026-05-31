@@ -1,0 +1,15 @@
+#outerP {
+    padding: 10px;
+    border: #d67c1d inset 4px;
+    color: #ddd6ceff;
+}
+
+#outerP p input {
+    margin-left: 10px;
+}
+
+#outerP p textarea {
+    margin-left: 10px;
+    width: 450px;
+    height: 130px;
+}

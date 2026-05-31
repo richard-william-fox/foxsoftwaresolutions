@@ -22,6 +22,10 @@ function App() {
                     path="/projects"
                     element={<PageContainer pageName="projects" />}
                 />
+                <Route
+                    path="/estimate"
+                    element={<PageContainer pageName="estimate" />}
+                />
             </Routes>
         </BrowserRouter>
     )

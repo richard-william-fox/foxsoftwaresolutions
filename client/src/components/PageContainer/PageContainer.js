@@ -6,6 +6,7 @@ import PageIndex from '../PageContents/PageIndex/PageIndex'
 import PageWork from '../PageContents/PageWork/PageWork'
 import PageContact from '../PageContents/PageContact/PageContact'
 import PageProjects from '../PageContents/PageProjects/PageProjects'
+import PageEstimate from '../PageContents/PageEstimate/PageEstimate'
 import Footer from '../Footer/Footer'
 
 const PageContainer = ({ pageName }) => {
@@ -49,6 +50,17 @@ const PageContainer = ({ pageName }) => {
                 <div id="projectsPage" className="pageFlex">
                     <NavBar />
                     <PageProjects />
+                </div>
+                <Footer />
+            </section>
+        )
+    } else if (pageName === 'estimate') {
+        return (
+            <section>
+                <Banner />
+                <div id="estimatePage" className="pageFlex">
+                    <NavBar />
+                    <PageEstimate />
                 </div>
                 <Footer />
             </section>

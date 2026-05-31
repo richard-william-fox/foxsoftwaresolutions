@@ -1,0 +1,15 @@
+ul.innerList {
+    border-left: none;
+    border-right: none;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#pixelArts {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}

@@ -1,4 +1,8 @@
 import './PageProjects.css'
+import monster from './08_monster_redux.png'
+import lilGuy from './09_new_lil_guy_v1.png'
+import logoImg from './logo.png'
+import furnace from './wip_anim.gif'
 
 const PageContent = ({ pageName }) => {
     return (
@@ -31,6 +35,17 @@ const PageContent = ({ pageName }) => {
                             </a>
                         </li>
                     </ul>
+                    <li>
+                        A site dedicated to{' '}
+                        <a href="https://normanafox.com">Norman Fox</a>
+                    </li>
+                    <li>Pixel Art</li>
+                    <div id="pixelArts">
+                        <img src={monster} alt="" />
+                        <img src={lilGuy} style={{ height: '20px' }} alt="" />
+                        <img src={logoImg} alt="" />
+                        <img src={furnace} alt="" />
+                    </div>
                 </ul>
                 <p>Here are some of the projects I'm currently working on.</p>
             </div>

@@ -4,11 +4,15 @@
     border: #d67c1d inset 4px;
 }
 
-ul {
+#contactList {
     border-left: #d67c1d inset 4px;
     border-right: #d67c1d inset 4px;
 }
 
 li {
     color: #ddd6ceff;
+}
+
+#contactList li {
+    margin-left: 20px;
 }
